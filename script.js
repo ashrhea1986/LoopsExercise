@@ -41,20 +41,11 @@ const hogwartsHouses = [
 ]
 
 // 5b
-for (category of hogwartsHouses){
-    for (char of hogwartsHouses[0]){
-        console.log(char);
+for (names of hogwartsHouses){
+    for (letters of names){
+        console.log(letters);
     }
-    for (char of hogwartsHouses[1]){
-        console.log(char);
-    }
-    for (char of hogwartsHouses[2]){
-        console.log(char);
-    }
-    for (char of hogwartsHouses[3]){
-        console.log(char);
-    }
-};
+}
 
 // 6a 
 const quote = [
