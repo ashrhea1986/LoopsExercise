@@ -56,5 +56,10 @@ const quote = [
 ];
 
 // 6b 
-let whatAreYou = quote.join(' ');
-console.log(whatAreYou);
+//let whatAreYou = quote.join(' ');
+//console.log(whatAreYou);
+let whatAreYou = "";
+while (quote !== whatAreYou){
+    console.log(quote.join(" "));
+    break;
+}
